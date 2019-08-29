@@ -71,6 +71,7 @@ namespace KataGame
                     }
                 }
             }
+
             this.Dashboard = tempDashboard;
         }
 
