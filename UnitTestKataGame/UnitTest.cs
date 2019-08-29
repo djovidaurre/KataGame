@@ -74,7 +74,7 @@ namespace UnitTestKataGame
 
 
         [TestMethod]
-        public void DeadSolitaryOneCellLive()
+        public void ReviveCellDeadTreeCellLive()
         {
             Game game = new Game(5, 5);
 
@@ -86,11 +86,11 @@ namespace UnitTestKataGame
                 new KeyValuePair<int, int>(4, 2)
             });
 
-            bool expected = false;
+            bool expected = true;
 
             game.Play();
 
-            bool? result = game.Dashboard[2, 2];
+            bool? result = game.Dashboard[2, 3];
 
             Assert.AreEqual(expected, result);
         }
