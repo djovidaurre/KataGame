@@ -74,7 +74,7 @@ namespace UnitTestKataGame
 
 
         [TestMethod]
-        public void ReviveCellDeadTreeCellLive()
+        public void ReviveCellDeadThreeCellLive()
         {
             Game game = new Game(5, 5);
 
