@@ -1,4 +1,4 @@
-# KataGameLOfLife
+# Juego de la Vida aplicacion TDD
 
 Creacion de juego de la vida aplicando TDD
 
@@ -23,9 +23,11 @@ Para ejecutar el proyecto en su ambiente debe realizar los siguientes pasos:
 - Clonar o descargar el proyecto.
 - Abrir el proyecto mediante el IDE Visual Studio.
 - Para ejecutar las pruebas, en la barra superior del IDE, hacer click en la opcion "Pruebas" y seleccionar "Ejecutar" y clickear en "Todas las pruebas".
-    -> Despues de ejecutar esta opcion, aparecera el siguiente "Explorador de Pruebas".
+    -> Despues de ejecutar esta opcion, aparecerá el siguiente "Explorador de Pruebas".
     
+![Explorador de Pruebas](https://github.com/djovidaurre/KataGame/blob/master/KataGame/Resource/Explorador.PNG) 
 
+Con este explorador puede realizar la ejecucion de Test Unitario independiente.
 
 
 
